@@ -38,7 +38,7 @@ Or as a plugin:
 
 ```
 /plugin marketplace add rishi150104/instagram-agent-skill
-/plugin install instagram-agent
+/plugin install instagram-agent-trend
 ```
 
 Project-local instead of global: copy the same folders into your repo's
