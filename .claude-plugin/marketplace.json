@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "instagram-agent-skill",
+  "name": "instagram-agent-trend",
   "description": "The Instagram agent skill pack for Claude",
   "owner": {
     "name": "Jake Schincariol",
