@@ -1,6 +1,6 @@
 # The Instagram agent skill
 
-Fourteen Claude skills that run an Instagram account. Free, MIT, no signup, no
+Fifteen Claude skills that run an Instagram account. Free, MIT, no signup, no
 API key, nothing to connect.
 
 One of them writes your Reels off 26 hook formulas and scores the hook before
@@ -52,13 +52,14 @@ reels and say "write my voice.md from these". Every skill reads that file. It
 matters more here than on other platforms, because you have to say the words
 out loud.
 
-## The fourteen
+## The fifteen
 
 | command | what it does |
 | --- | --- |
 | `/ig-reel` | One idea into a Reel. Three hooks from [26 formulas](skills/ig-reel/hooks.json), scored, then the script, the on-screen text and a timed beat sheet. |
 | `/ig-viral` | Goes and finds what is working in your niche, ranks it by multiple over each account's own median, names the formula, writes the swipe file. |
 | `/ig-trend` | Give it a keyword. It finds the reels on that topic with the most views in the last 90 days, descending, with each one's multiple over its account's median and a link. Reads in your own logged-in browser. |
+| `/ig-creator` | Give it a niche. It finds small creators there: under 2,000 followers, at least 30 posts, with followers, post count, bio and a profile link. Reads in your own logged-in browser. |
 | `/ig-caption` | The caption, linted. Shows you the 125 characters the feed actually shows before the tap. |
 | `/ig-carousel` | Swipe posts. The cover that earns the swipe, slide copy, and the 1080x1350 files. |
 | `/ig-story` | The daily story sequence, which sticker does which job, and the DM funnel that starts with them moving first. |
@@ -329,7 +330,7 @@ templates/voice.md                 your voice profile. Fill this in first.
 
 ## Credit
 
-Made by Jake Schincariol, [opusjake.ai](https://opusjake.ai). This fork adds `/ig-trend`; the original is [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill).
+Made by Jake Schincariol, [opusjake.ai](https://opusjake.ai). This fork adds `/ig-trend` and `/ig-creator`; the original is [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill).
 
 Sibling repo, same idea for a different platform:
 [linkedin-agent-skill](https://github.com/Jakeschincariol/linkedin-agent-skill).
